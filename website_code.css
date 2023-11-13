@@ -1,0 +1,186 @@
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-top, .container-middle, .container-bottom{
+    border: 2px solid black;
+    width: auto;
+    height: 400px;
+    overflow: auto;
+    
+}
+.navlist{
+    display: flex;
+   justify-content:flex-end;
+   gap: 25px; 
+     list-style-type: none;  
+     position:relative;
+     padding: 10px;
+}
+.navbar{
+ border: 2px solid black; 
+    border-radius: 5%;
+    background-color: rgba(118, 221, 142, 0.547);
+}
+.nav-btn{
+    text-decoration: none;
+    border: 2px solid black;
+    border-color: gray;
+    padding: 3px;
+    border-radius: 5px;
+    background-color: beige;
+    font-style: italic;
+    font-size: large;
+    color: black;
+}
+.top-header-tag{
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    font-weight: 700;
+    font-size: 295%;
+    text-decoration: underline solid gray;
+}
+.Colors, .Fonts, .Stylesspecs, .Extra{
+   display: flex;
+   justify-content:center; 
+   font-size: 175%;
+   font-weight: bold;
+   text-decoration:underline;
+}
+.color-block-swamp-green{
+    background-color: rgba(104, 182, 31, 0.81);
+    width: 461px;
+    height: 150;
+    gap: 20px;
+
+}
+.color-block-bronze{
+    background-color: rgba(162, 121, 39, 0.848);
+    width: 461px;
+    height: 150;
+    gap: 20px;
+
+}.color-block-darkblue-sky{
+    background-color: rgba(36, 65, 180, 0.848);
+    width: 461px;
+    height: 150;
+    gap: 20px;
+
+}.color-block-red{
+    background-color: rgb(255, 0, 0);
+    width: 461px;
+    height: 150;
+    gap: 20px;
+
+}.color-block-blue{
+    background-color: rgb(0, 0, 255);
+    width: 461px;
+    height: 150;
+    gap: 20px;
+
+}.color-block-yellow-bronze{
+    background-color: rgb(255, 165, 0);
+    width: 461px;
+    height: 150;
+    gap: 20px;
+
+}.color-block-violet{
+    background-color: rgb(238, 130, 238);
+    width: 461px;
+    height: 150;
+    gap: 20px;
+
+}
+.color-block-gray{
+    background-color: rgb(140,140,140);
+    width: 461px;
+    height: 150;
+    gap: 20px;
+}
+.container-top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 10px 10px;
+    padding: 10px;
+    
+}
+.color-block-swamp-green, .color-block-bronze, .color-block-darkblue-sky, .color-block-red, .color-block-blue,.color-block-yellow-bronze,.color-block-violet,.color-block-gray{
+    text-align: center;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:600;
+    font-weight: lighter;
+    border-radius: 15px;
+    border-style: ridge;
+    text-decoration: underline solid 1px black ;
+}
+
+/*a.highlight:hover .color-block-swamp-green, .color-block-bronze, .color-block-darkblue-sky, .color-block-red, .color-block-blue,.color-block-yellow-bronze,.color-block-violet,.color-block-gray{
+
+}*/
+
+.container-middle{
+    display: inline-block;
+}
+.Fonts-Specs-1,.Fonts-Specs-2, .Fonts-Specs-3, .Fonts-Specs-4{
+    display: inline-block;
+    width: 48%;
+}
+.Font-tag{
+    text-decoration: underline;
+    margin: 25px;
+    font-size: 20px;
+}
+.Italic{
+    font-style: italic;
+}
+.plain{
+    font-style: normal;
+}
+.Bold{
+    font-weight: bold;
+}
+.Fonts-Specs-1{
+    font-family:'Edu TAS Beginner', sans-serif;
+}
+.Fonts-Specs-2{
+    font-family: 'Quicksand', sans-serif;
+}
+.Fonts-Specs-3{
+    font-family: 'Agbalumo', sans-serif;
+}
+.Fonts-Specs-4{
+    font-family: 'Dancing Spirit', sans-serif;
+}
+
+.container-bottom{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 75px;
+    align-content: space-evenly;
+}
+.text-upper-top{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Edu TAS Beginner', sans-serif;
+}
+.text-middle{
+    font-size: 20px;
+    font-weight:400 normal;
+    font-family: 'Quicksand', sans-serif;
+}
+.text-bottom{
+    font-size: 20px;
+    font-weight:lighter 300;
+    font-family: 'Agbalumo', sans-serif;
+}
+.text-floor{
+    font-size: 24px;
+    font-weight: 700 bolder;
+    font-family: 'Dancing-Spirit', sans-serif;
+}
